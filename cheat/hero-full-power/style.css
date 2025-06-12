@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=blemo:wght@400&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  background: #098EFA;
+  overflow-x: hidden;
+}
+.hero-bg {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  margin: 0 auto;
+  background: #098EFA;
+  overflow: hidden;
+}
+.bg-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1366px;
+  height: 911px;
+  object-fit: cover;
+  z-index: 0;
+}
+.hero-header {
+  position: absolute;
+  top: 28px;
+  left: 103px;
+  width: 1160px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.logo {
+  font-family: 'Monda', sans-serif;
+  font-size: 28px;
+  color: #111;
+  letter-spacing: -0.7px;
+  font-weight: 400;
+}
+.nav-menu {
+  display: flex;
+  gap: 32px;
+  margin-left: 60px;
+}
+.nav-menu a {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-size: 16px;
+  color: #111;
+  text-decoration: none;
+  letter-spacing: -0.15px;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+.nav-menu a:hover {
+  color: #098EFA;
+}
+.btn-primary {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border-radius: 28px;
+  padding: 12px 24px;
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 32px;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  background: #098EFA;
+  color: #000;
+}
+.hero-main {
+  position: absolute;
+  top: 216px;
+  left: 103px;
+  width: 1200px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+.hero-content {
+  width: 512px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.hero-title {
+  font-family: 'blemo', sans-serif;
+  font-size: 64px;
+  color: #111;
+  font-weight: 400;
+  line-height: 1.125;
+  letter-spacing: -0.58px;
+  margin: 0 0 12px 0;
+}
+.hero-desc {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-size: 16px;
+  color: #111;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.15px;
+  margin: 0 0 24px 0;
+  width: 383px;
+}
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.video-link {
+  display: flex;
+  align-items: center;
+  background: rgba(17,17,17,0.08);
+  border-radius: 28px;
+  height: 44px;
+  padding: 0 16px 0 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.video-link:hover {
+  background: #098EFA22;
+}
+.video-icon-bg {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oval {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.arrow {
+  width: 11px;
+  height: 14px;
+  position: absolute;
+  left: 10px;
+  top: 9px;
+}
+.video-text {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-size: 16px;
+  color: #111;
+  font-weight: 400;
+  letter-spacing: -0.15px;
+}
+.hero-image {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+}
+.hero-image img {
+  width: 600px;
+  height: auto;
+  margin-top: 0;
+  margin-left: 40px;
+  z-index: 2;
+}
+@media (max-width: 1400px) {
+  .hero-bg {
+    width: 100vw;
+    min-width: 100vw;
+  }
+  .bg-img {
+    width: 100vw;
+  }
+  .hero-header, .hero-main {
+    left: 5vw;
+    width: 90vw;
+  }
+}

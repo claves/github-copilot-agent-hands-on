@@ -14,4 +14,5 @@ https://www.figma.com/design/hDgneJzlNiPYdDfj1wQAKb/Positivus-Landing-Page-Desig
   - Figma MCPを使うこと
   - svgを完全なものにすること
   - 遠慮せず全力を出すこと
-  - lpディレクトリ配下に作成すること
+  - lpディレクトリ配下に作成すること（`cheat/lp` ではなく、`lp`）
+

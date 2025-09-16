@@ -10,4 +10,4 @@
   - HTML・CSSファイルを完璧にデザイン再現する形で作成すること
   - Figma MCPを使うこと
   - 遠慮せず全力を出すこと
-  - hero-full-powerディレクトリ配下に作成すること
+  - hero-full-powerディレクトリ配下に作成すること（`cheat/hero-full-power` ではなく、`hero-full-power`）

@@ -9,4 +9,4 @@
 - MUST 
   - HTML・CSSファイルで作成すること
   - Figma MCPを使うこと
-  - hero-normalディレクトリ配下に作成すること
+  - プロジェクトルート直下の `hero-normal` ディレクトリに作成すること（`cheat/hero-normal` ではなく、`hero-normal`）
